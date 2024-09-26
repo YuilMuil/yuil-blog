@@ -2,9 +2,8 @@
 title: 처의 첫 블로그 포스트!
 published: 2024-09-26
 description: 안녕하세여~~
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
+tags: [Introduction]
+category: Personal
 draft: false
 ---
 
