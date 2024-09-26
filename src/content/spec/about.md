@@ -1,7 +1,13 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is the blog of [YuilMuil](https://github.com/YuilMuil).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="YuilMuil/yuil-blog"}
+
+
+This is my [introduction page](https://yuilmuil.github.io/).
+I mostly post tech stuff and reverse engineering stuff here.
+
+If you want to contact me, contact me via Discord(YuilMuil).
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
