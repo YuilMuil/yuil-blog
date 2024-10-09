@@ -1,7 +1,7 @@
 ---
 title: Ramblings
 published: 2024-10-10
-description: [English] Rambling ;S
+description: Rambling ;S
 tags: [English, Personal, Tech]
 category: Personal
 draft: false
