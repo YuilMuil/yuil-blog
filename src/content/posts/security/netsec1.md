@@ -1,7 +1,7 @@
 ---
 title: An overview of Networks and Network Security - Part 1
 published: 2024-12-08
-description: Rambling ;S
+description: [SECURIOUS 블로그 첼린지] A basic overview of Network Fundamentals and a incomplete introduction to basic Network Security concepts and terminology.
 tags: [English, Personal, Tech]
 category: Security
 draft: false
@@ -16,24 +16,17 @@ This post will cover the basics of Network Fundamentals and basic Network Securi
 
 # Network Fundamentals
 ##### Packet Switching
-Packet Switching is the concept in which the data you send are split into smaller blocks of data called 'Packets' and each
-packet has it's own metadata(Destination IP, Sender IP, Packet/Sequence Number etc) along with it's own write.
-After the split data are received at the destination, it is then reconstructed into the original data before it was split,
-by combining each packet in order using the metadata as a reference.
+Packet Switching is the concept in which the data you send are split into smaller blocks of data called 'Packets' and each packet has it's own metadata(Destination IP, Sender IP, Packet/Sequence Number etc) along with it's own write. After the split data are received at the destination, it is then reconstructed into the original data before it was split, by combining each packet in order using the metadata as a reference.
 
 ##### Shared Media Ethernet
-A method of sharing a single bandwidth with all users in a end-point, akin to a high-way for cars.
-The problem with this method is that bandwidth for every client added is split and reduced, and for each client
-that is added, the risk of Collision occuring is increased.
+A method of sharing a single bandwidth with all users in a end-point, akin to a high-way for cars. The problem with this method is that bandwidth for every client added is split and reduced, and for each client that is added, the risk of Collision occuring is increased.
 
 ##### Segments & Bridges
-A bridge splits the LAN into a smaller shared segment, where each segment is like a mini shared media ethernet.
-This method can reduce the risk of Collision and prevents the bandwidth from being spread out between clients.
+A bridge splits the LAN into a smaller shared segment, where each segment is like a mini shared media ethernet. This method can reduce the risk of Collision and prevents the bandwidth from being spread out between clients.
 
 ##### Transmission Methods
 - Unicast(Point to Point)
-This method sends the same packet from server to client N times, with each request
-being sent to each unique client.
+This method sends the same packet from server to client N times, with each request being sent to each unique client.
 
 - Broadcast(Point to Multipoint)
 It sends the same packet to every client connected at once.
@@ -44,8 +37,7 @@ It sends the same packet to every client within a certain group at once.
 ##### Types of networks
 
 - WAN(Wide Area Network)
-The biggest network unit used. Size of network ranges from 100km to 1000km and usually denotes
-a country or continent. (Fun fact: The Internet is the world's largest WAN)
+The biggest network unit used. Size of network ranges from 100km to 1000km and usually denotes a country or continent. (Fun fact: The Internet is the world's largest WAN)
 
 - MAN(Metropolitan Area Network)
 The second biggest network unit used. Size ranges from 10km to 100km and usually denotes a city.
@@ -54,18 +46,14 @@ The second biggest network unit used. Size ranges from 10km to 100km and usually
 The msot often used network unit. Size ranges from 10m~1km and usually denotes Room, Building, Campus.
 
 ##### OSI 7 Layer
-Also known as the Open Systems Interconnection Reference Model, it is the
-Layered standard model for telecommunications developed by the International Organization for Standardization (ISO).
+Also known as the Open Systems Interconnection Reference Model, it is the Layered standard model for telecommunications developed by the International Organization for Standardization (ISO).
 
 ###### Pros
-- There are 7 layers which allows interoperability of different vendors by
-creating standards which are agreed upon for all vendors for each layer.
-- If management is divided into each level via Encapsulation, it is easier to resolve problems by splitting them from one big problem
-into 7 smaller problems.
+- There are 7 layers which allows interoperability of different vendors by creating standards which are agreed upon for all vendors for each layer.
+- If management is divided into each level via Encapsulation, it is easier to resolve problems by splitting them from one big problem into 7 smaller problems.
 
 ##### Layers
-The layers consists of Application, Presentation, Session, Transport, Network, Data Link, Physical
-For each layer, there is a header added which is completed at Data Link layer, then the data is sent via the Physical Link layer, which then the receiver reads each layer which is then ultimately sent to the client.
+The layers consists of Application, Presentation, Session, Transport, Network, Data Link, Physical. For each layer, there is a header added which is completed at Data Link layer, then the data is sent via the Physical Link layer, which then the receiver reads each layer which is then ultimately sent to the client.
 
 ##### Telecommunications equipment for each layer
 - L2 Switch: Only reads until the Data Link layer to check the MAC Address for which it sends the packet to the client connected to the switch with that MAC address saved within it's MAC Address Table.
