@@ -1,7 +1,7 @@
 ---
 title: An overview of Networks and Network Security - Part 1
 published: 2024-12-08
-description: [SECURIOUS 블로그 첼린지] A basic overview of Network Fundamentals and a incomplete introduction to basic Network Security concepts and terminology.
+description:(SECURIOUS 블로그 첼린지)A basic overview of Network Fundamentals and a incomplete introduction to basic Network Security concepts and terminology.
 tags: [English, 네트워크 보안, 개념, 날피]
 category: Security
 draft: false
